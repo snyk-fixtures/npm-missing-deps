@@ -1,21 +1,21 @@
 {
-  "name": "npm-two-vuln-deps",
+  "name": "npm-missing-deps",
   "version": "1.0.0",
-  "description": "A test fixture project with two vuln deps",
+  "description": "A test fixture project with missing deps",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/snyk-fixtures/npm-two-vuln-deps.git"
+    "url": "git+https://github.com/snyk-fixtures/npm-missing-deps.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/snyk-fixtures/npm-two-vuln-deps/issues"
+    "url": "https://github.com/snyk-fixtures/npm-missing-deps/issues"
   },
-  "homepage": "https://github.com/snyk-fixtures/npm-two-vuln-deps#readme",
+  "homepage": "https://github.com/snyk-fixtures/npm-missing-deps#readme",
   "dependencies": {
     "express": "4.17.0",
     "lodash": "4.17.11",
