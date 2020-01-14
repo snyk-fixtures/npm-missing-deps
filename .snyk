@@ -1,0 +1,11 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - twilio > request > extend:
+        patched: '2020-01-14T11:35:40.421Z'
+  'npm:stringstream:20180511':
+    - twilio > request > stringstream:
+        patched: '2020-01-14T11:35:40.421Z'
