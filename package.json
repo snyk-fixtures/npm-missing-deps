@@ -4,7 +4,9 @@
   "description": "A test fixture project with missing deps",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,8 @@
     "express": "4.17.0",
     "lodash": "4.17.11",
     "sharp": "^0.17.1",
-    "twilio": "^3.0.0"
-  }
+    "twilio": "^3.0.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
