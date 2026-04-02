@@ -18,8 +18,8 @@
   "homepage": "https://github.com/snyk-fixtures/npm-missing-deps#readme",
   "dependencies": {
     "express": "4.17.0",
-    "lodash": "4.17.11",
+    "lodash": "4.17.23",
     "sharp": "^0.17.1",
-    "twilio": "^3.0.0"
+    "twilio": "^3.17.1"
   }
 }
